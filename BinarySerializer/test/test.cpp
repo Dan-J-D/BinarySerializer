@@ -78,8 +78,13 @@ int main()
 
     if (t1->Deserialize(data, size))
     {
+        /* OUTPUT */
         fwrite(data, size, 1, stdout);
         std::cout << std::endl << t1->a << " ";
         fwrite(t1->b, t1->b_size, 1, stdout);
     }
+
+    free(data);
+    delete t1;
+    delete t;
 }
