@@ -3,7 +3,7 @@
 Serialize/Deserialize memory
 
 ## Usage/Example
-Check out **test/test.cpp** for usage/example.
+Check out **BinarySerializer/test/test.cpp** for usage/example.
 
 ## License
 Copyright 2021 Daniel Doych
